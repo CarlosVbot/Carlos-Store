@@ -1,15 +1,15 @@
-export class CreateProductDTO {
+export class CreateUserDTO {
   readonly name: string;
   readonly pass: string;
   readonly status: number;
-  readonly type: string;
-  readonly image: number;
+  readonly type: number;
+  readonly image: string;
 }
 
-export class UpdateProductDto {
+export class UpdateUserDto {
   readonly name?: string;
-  readonly pass: string;
+  readonly pass?: string;
   readonly status?: number;
-  readonly type: number;
+  readonly type?: number;
   readonly image?: string;
 }
